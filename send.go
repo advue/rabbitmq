@@ -24,7 +24,7 @@ func main() {
 		nil,     // arguments
 	)
 	failOnError(err, "Failed to declare a queue")
-
+	// body
 	body := "hello"
 	err = ch.Publish(
 		"",     // exchange
